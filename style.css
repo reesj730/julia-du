@@ -1,0 +1,301 @@
+
+
+html {
+  overflow-x:hidden;
+}
+
+header{
+  width:90%;
+  margin:0 auto;
+  height:145px;
+  border-bottom-width: 3px;
+  border-bottom-color: #861d1d;
+  border-bottom-style:solid;
+}
+
+body{
+  padding:50px;
+}
+
+h1, h2, h3 {
+  font-family: 'Dela Gothic One', cursive;
+  font-weight: 400;
+}
+
+video{
+position: relative;
+width: 70%;
+margin: 50px 50px 50px;
+text-align: center;
+}
+
+.demo{
+  text-align: center;
+}
+
+h1 {
+  color: #861d1d;
+  float:left;
+  font-size:40px;
+  margin: 50px auto 0 auto;
+}
+
+.fa-diamond{
+  color: #f481a0;
+  font-size:30px !important;
+}
+
+nav ul {
+  list-style: none;
+  text-align: right;
+  position:relative;
+}
+nav ul li {
+  margin: 68px 0 auto auto;
+  display:inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  padding: 75px 20px;
+  font-size:20px;
+  font-family: Cabin;
+  font-weight: 400;
+  font-style: normal;
+  color: #861d1d;
+}
+
+main{
+  width:100%;
+  margin: 0;
+  overflow-x:hidden;
+}
+
+.crop{
+  position: relative;
+  display:block;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+ img {
+   width:100%;
+ }
+ .title {
+   text-align: center;
+   font-family: Cabin;
+   font-weight: 400;
+   font-style: normal;
+   margin: 60px auto;
+   color: #861d1d;
+ }
+ h2 {
+   font-size:60px;
+ }
+ span{
+   color: #861d1d;
+ }
+ .titleInfo {
+   font-size:22px;
+ }
+ .info {
+   display:inline-block;
+   padding:0 5%;
+   margin-left: 150px;
+   margin-right: 150px;
+ }
+
+ h3 {
+   font-family: 'Dela Gothic One', cursive;
+   line-height: 1em;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 45px;
+   letter-spacing: .03em;
+   line-height: 1.2em;
+   margin-top: 50px;
+   color: #861d1d;
+ }
+
+ .descriptions {
+    letter-spacing: 0em;
+    line-height: 1.6em;
+    font-family: Cabin;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: .01em;
+    line-height: 1.7em;
+    text-transform: none;
+    color: #861d1d;
+ }
+
+.gallery {
+  position:relative;
+  width: 90%;
+  margin: 0 50px 50px;
+  text-align: center;
+}
+
+.picture {
+  display:inline-block;
+  width:225px;
+  height:225px;
+  background-image: url('http://bretahajek.com/wp-content/uploads/2015/12/cropped-sunset.jpg');
+  border-radius: 20px;
+  margin: 20px;
+  text-align: left;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.3);
+  overflow:hidden;
+}
+
+.caption{
+  display:block;
+  position:relative;
+  padding: 32px 60px 60px 20px;
+  background-color: white;
+  background-size:50px 225px;
+  overflow:hidden;
+  font-size:15px;
+  font-family: Cabin;
+  font-weight: 400;
+  font-style: normal;
+  color:#861d1d;
+}
+
+h4 {
+  display:block;
+  position:relative;
+  margin:0;
+  top: 22px;
+  left: 20px;
+  z-index: 1;
+   font-family: Cabin;
+   font-weight: 400;
+   font-style: normal;
+  font-size: 23px;
+  color: white;
+}
+
+footer {
+  position:relative;
+  width:110%;
+  margin: auto 0 0 0;
+  background-color: #2d2d2d;
+  left:-10px;
+}
+
+h3.contact {
+  text-align:left;
+  display:block;
+  margin: 50px auto auto 5%;
+  padding: 60px 0 0 0;
+}
+
+input {
+  display:block;
+  margin: 20px auto auto 5%;
+  width: 600px;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #d8d8d8;
+  outline:none;
+  border:none;
+  border-radius:3px;
+}
+
+.formTop{
+  height: 30px;
+}
+
+.formBottom{
+  height:120px;
+}
+
+input[type="text"] {
+  padding: 0 0 0 5px;
+  font-size:15px;
+  color:#d8d8d8;
+}
+
+.follow {
+  display:block;
+  position:absolute;
+  z-index:1;
+  bottom:150px;
+  right:150px;
+}
+
+/*media queries*/
+@media (max-width:1000px) {
+  .follow .fa {
+    display:inline-block;
+    position:relative;
+    bottom:0;
+    right:0;
+    margin-top:0;
+  }
+  .follow {
+    display:block;
+    position:relative;
+    left:5%;
+    bottom:0;
+    margin-top:0;
+    text-align:center;
+  }
+  input{
+    width:70%;
+  }
+}
+@media (max-width:860px) {
+  .info {
+    display: block;
+    position:relative;
+    width:70%;
+    margin: 0 auto;
+  }
+}
+@media (max-width:727px) {
+  nav ul{
+    display:inline-block;
+    text-align:center;
+    margin-top:0;
+    padding-top:0;
+  }
+  nav ul li {
+    margin-top:20px;
+  }
+  h1 {
+    width:100%;
+    display:block;
+    margin-top:50px;
+    text-align:center;
+  }
+  header{
+    width:90%;
+    margin:0 auto;
+    height:auto;
+    border-bottom-width: 3px;
+    border-bottom-color: #861d1d;
+    border-bottom-style:solid;
+  }
+}
+@media (max-width:330px) {
+  nav ul li {
+    display:block;
+  }
+  nav ul {
+    display:block;
+    text-align:center;
+    width:100%;
+    padding:0;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width:1290px) {
+  img {
+    width:auto;
+    height:365px;
+  }
+}
+
